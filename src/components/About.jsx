@@ -1,11 +1,11 @@
 const About = () => {
   return (
-    <section id="about" className="py-24 px-6 max-w-6xl mx-auto">
-      <h2 className="text-4xl font-bold mb-10 text-center">
+    <section id="about" className="py-24 px-4 md:px-6 max-w-6xl mx-auto">
+      <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center">
         About Me
       </h2>
 
-      <div className="bg-white/10 backdrop-blur-lg p-8 rounded-3xl border border-white/10 text-gray-300 leading-8 text-lg">
+      <div className="bg-white/10 backdrop-blur-lg p-5 md:p-8 rounded-3xl border border-white/10 text-gray-300 leading-8 text-lg text-justify">
         <p>
           I am <span className="text-cyan-400 font-semibold">
             Mothilal Tadiparthi

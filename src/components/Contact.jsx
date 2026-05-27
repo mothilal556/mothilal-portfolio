@@ -2,8 +2,8 @@ import contactProfile from '../assets/contact-profile.jpg'
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-24 px-6">
-      <h2 className="text-4xl font-bold text-center mb-14">
+    <section id="contact" className="py-24 px-4 md:px-6">
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-14">
         Contact Me
       </h2>
 

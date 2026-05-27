@@ -2,8 +2,8 @@ const skills = ['Java', 'Python', 'C', 'Php','HTML+CSS+JS', 'MySQL','MongoDB', '
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-24 px-6">
-      <h2 className="text-4xl font-bold text-center mb-14">Technical Skills</h2>
+    <section id="skills" className="py-24 px-4 md:px-6">
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-14">Technical Skills</h2>
 
       <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-6">
         {skills.map((skill, index) => (

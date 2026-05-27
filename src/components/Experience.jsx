@@ -1,9 +1,9 @@
 const Experience = () => {
   return (
-    <section id="experience" className="py-24 px-6 max-w-5xl mx-auto">
-      <h2 className="text-4xl font-bold text-center mb-14">Teaching Experience</h2>
+    <section id="experience" className="py-24 px-4 md:px-6 max-w-5xl mx-auto">
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-14">Teaching Experience</h2>
 
-      <div className="bg-white/10 backdrop-blur-lg border border-white/10 rounded-3xl p-8">
+      <div className="bg-white/10 backdrop-blur-lg border border-white/10 rounded-3xl p-5 md:p-8">
         <h3 className="text-2xl font-semibold">Assistant Professor</h3>
         <p className="text-cyan-400 mt-2">
           Sri Indu College of Engineering and Technology, Sheriguda, Hyderabad, TG
@@ -13,7 +13,7 @@ const Experience = () => {
         </p>
       </div>
       <br/>
-      <div className="bg-white/10 backdrop-blur-lg border border-white/10 rounded-3xl p-8">
+      <div className="bg-white/10 backdrop-blur-lg border border-white/10 rounded-3xl p-5 md:p-8">
         <h3 className="text-2xl font-semibold">Assistant Professor</h3>
         <p className="text-cyan-400 mt-2">
           Seshadri Rao Gudlavalleru Engineering College, Gudlavalleru, Krishna District, AP
@@ -23,7 +23,7 @@ const Experience = () => {
         </p>
       </div>
       <br/>
-      <div className="bg-white/10 backdrop-blur-lg border border-white/10 rounded-3xl p-8">
+      <div className="bg-white/10 backdrop-blur-lg border border-white/10 rounded-3xl p-5 md:p-8">
         <h3 className="text-2xl font-semibold">Assistant Professor</h3>
         <p className="text-cyan-400 mt-2">
           V.K.R., V.N.B. & A.G.K. College of Engineering, Gudivada, Krishna District, AP
@@ -33,7 +33,7 @@ const Experience = () => {
         </p>
       </div>
       <br/>
-      <div className="bg-white/10 backdrop-blur-lg border border-white/10 rounded-3xl p-8">
+      <div className="bg-white/10 backdrop-blur-lg border border-white/10 rounded-3xl p-5 md:p-8">
         <h3 className="text-2xl font-semibold">Assistant Professor</h3>
         <p className="text-cyan-400 mt-2">
           Prasiddha College of Engineering, Amalapuram, East Godavari District, AP

@@ -57,8 +57,8 @@ const publications = [
 
 const Publications = () => {
   return (
-    <section id="publications" className="py-24 px-6">
-      <h2 className="text-4xl font-bold text-center mb-14">
+    <section id="publications" className="py-24 px-4 md:px-6">
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-14 break-words">
         Publications
       </h2>
 
@@ -67,7 +67,7 @@ const Publications = () => {
         {publications.map((pub, index) => (
           <div
             key={index}
-            className="bg-white/10 backdrop-blur-lg border border-white/10 rounded-3xl p-8 hover:scale-[1.01] duration-300"
+            className="bg-white/10 backdrop-blur-lg border border-white/10 rounded-3xl p-5 md:p-8 hover:scale-[1.01] duration-300"
           >
 
             {/* Clickable Title */}
@@ -75,7 +75,7 @@ const Publications = () => {
               href={pub.link}
               target="_blank"
               rel="noreferrer"
-              className="text-2xl font-bold text-cyan-400 leading-10 hover:text-purple-400 duration-300"
+              className="text-2xl font-bold text-cyan-400 leading-10 hover:text-purple-400 duration-300 break-words text-justify"
             >
               {pub.title}
             </a>

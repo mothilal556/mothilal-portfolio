@@ -66,16 +66,16 @@ const certifications = [
 
 const Certifications = () => {
   return (
-    <section id="certifications" className="py-24 px-6">
-      <h2 className="text-4xl font-bold text-center mb-14">
+    <section id="certifications" className="py-24 px-4 md:px-6">
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-14">
         Certifications
       </h2>
 
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-5 md:p-8">
         {certifications.map((cert, index) => (
           <div
             key={index}
-            className="bg-white/10 backdrop-blur-lg border border-white/10 rounded-3xl p-8"
+            className="bg-white/10 backdrop-blur-lg border border-white/10 rounded-3xl p-5 md:p-8"
           >
             <h3 className="text-2xl font-bold text-cyan-400">
               {cert.title}

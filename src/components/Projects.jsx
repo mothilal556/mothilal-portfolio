@@ -48,8 +48,8 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-24 px-6">
-      <h2 className="text-4xl font-bold text-center mb-14">
+    <section id="projects" className="py-24 px-4 md:px-6">
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-14">
         Projects
       </h2>
 
@@ -57,10 +57,10 @@ const Projects = () => {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="bg-white/10 backdrop-blur-lg border border-white/10 rounded-3xl p-8 hover:scale-[1.02] duration-300"
+            className="bg-white/10 backdrop-blur-lg border border-white/10 rounded-3xl p-5 md:p-8 hover:scale-[1.02] duration-300"
           >
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-              <h3 className="text-3xl font-bold text-cyan-400">
+              <h3 className="text-3xl font-bold text-cyan-400 text-justify">
                 {project.title}
               </h3>
 
@@ -78,7 +78,7 @@ const Projects = () => {
               Technologies Used: {project.tech}
             </p>
 
-            <p className="mt-6 text-gray-300 leading-8 text-lg">
+            <p className="mt-6 text-gray-300 leading-8 text-lg text-justify">
               {project.description}
             </p>
 
