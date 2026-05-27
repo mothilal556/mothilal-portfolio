@@ -60,7 +60,7 @@ const Projects = () => {
             className="bg-white/10 backdrop-blur-lg border border-white/10 rounded-3xl p-5 md:p-8 hover:scale-[1.02] duration-300"
           >
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-              <h3 className="text-3xl font-bold text-cyan-400 text-justify">
+              <h3 className="text-3xl font-bold text-cyan-400">
                 {project.title}
               </h3>
 
