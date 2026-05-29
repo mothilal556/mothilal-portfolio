@@ -21,8 +21,7 @@ const Hero = () => {
           </motion.h1>
 
           <p className="mt-6 text-xl text-gray-300 leading-8">
-            Assistant Professor | Computer Science and Engineering |
-            Full Stack Developer
+            Assistant Professor | Full Stack Developer | ComputerScience and Engineering
           </p>
 
           <div className="mt-10 flex flex-wrap gap-5">
